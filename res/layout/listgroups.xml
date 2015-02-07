@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+ 
+    <TextView
+        android:id="@+id/Course_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Course Name: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Course_Name"
+        android:layout_below="@+id/Course_Name"
+        android:text="Location: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Location"
+        android:layout_below="@+id/Location"
+        android:text="Description: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/Max_Members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Description"
+        android:layout_below="@+id/Description"
+        android:text="Max Allowed: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Description"
+        android:layout_alignBottom="@+id/Description"
+        android:layout_toRightOf="@+id/Description"
+        android:text="TextView" />
+ 
+    <TextView
+        android:id="@+id/max_members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Max_Members"
+        android:layout_alignBottom="@+id/Max_Members"
+        android:layout_alignLeft="@+id/continent"
+        android:text="TextView" />
+ 
+    <TextView
+        android:id="@+id/Des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Description"
+        android:layout_toRightOf="@+id/Description"
+        android:text="TextView"/>
+ 
+    <TextView
+        android:id="@+id/Loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Location"
+        android:layout_alignLeft="@+id/name"
+        android:text="TextView" />
+ 
+</RelativeLayout>
